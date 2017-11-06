@@ -1,0 +1,36 @@
+{
+  "name": "cb_ionic_input",
+  "version": "0.1.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "files": "dist",
+  "scripts": {
+    "ngc": "ngc",
+    "build": "rm -rf aot dist && npm run ngc",
+    "publishPackage": "npm run build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dannible/cb_inputbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dannible/cb_inputbox/issues"
+  },
+  "homepage": "https://github.com/Dannible/cb_inputbox#readme",
+  "devDependencies": {
+    "@angular/common": "^4.0.0",
+    "@angular/compiler": "^4.0.0",
+    "@angular/compiler-cli": "^4.0.0",
+    "@angular/core": "^4.0.0",
+    "@angular/platform-browser": "^4.0.0",
+    "@angular/platform-browser-dynamic": "^4.0.0",
+    "@types/node": "^6.0.60",
+    "zone.js": "^0.8.4",
+    "rxjs": "^5.4.0",
+    "typescript": "^2.3.4"
+  }
+}
