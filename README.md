@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ionic Module Template
 
 This is a template for building your own reusable Angular2/Ionic2 module using TypeScript. Supports Angular's ngc and Ahead-of-Time compiling out of the box.
@@ -44,3 +45,6 @@ import { MyModule } from 'ionic-module-template';
 })
 export class AppModule {}
 ```
+=======
+# cb_inputbox
+>>>>>>> a88e29f575a9f63cef9c7d248eafc1d1bdaec111
