@@ -1,9 +1,20 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { NavParams} from 'ionic-angular';
 
 @Component({
   selector: 'cb-InputBoxComponent',
-  template: `<div>I'm a special snowflake</div>`
+  template: 'cb-InputBoxComponent.html'
 })
 export class cbInputBoxComponent {
-  constructor() {}
+  @Input() labelText:string;
+  constructor(public params: NavParams) {
+    this.setTitle();
+  }
+
+  setTitle(){
+    if(this.labelText ==  undefined)
+        this.labelText = "";
+    else
+        this.labelText = this.params.get("labelText");
+  }
 }
