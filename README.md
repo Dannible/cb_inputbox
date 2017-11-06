@@ -10,10 +10,6 @@ When you're ready to publish to npm, run `npm publishPackage`.
 
 If you'd like to test this package, run `npm install cb_ionic_input`
 
-## npm link
-
-Currently, modules must be published to npm. `npm link` packages will not install properly with our webpack confing (something on our list). If you can't push private code to npm, other options are a private npm repo/npm enterprise, or `npm install` from a git repo.
-
 ## Using your module in an Ionic 2 app
 
 ```typescript
@@ -43,3 +39,5 @@ import { cbInputBox } from 'cb_ionic_input';
 })
 export class AppModule {}
 
+
+<cb-InputBoxComponent labelText="hello" placeholderText="you"></cb-InputBoxComponent>
