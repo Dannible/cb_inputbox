@@ -6,11 +6,11 @@ import { cbInputBoxProvider } from './providers/cb-InputBoxProvider';
 @NgModule({
   declarations: [
     // declare all components that your module uses
-    cbInputBox
+    cbInputBoxComponent
   ],
   exports: [
     // export the component(s) that you want others to be able to use
-    cbInputBox
+    cbInputBoxComponent
   ]
 })
 export class cbInputBox {

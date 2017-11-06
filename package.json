@@ -4,7 +4,7 @@
   "description": "",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
-  "files": "dist",
+  "files": ["./dist"],
   "scripts": {
     "ngc": "ngc",
     "build": "rm -rf aot dist && npm run ngc",

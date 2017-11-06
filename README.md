@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Ionic Module Template
 
 This is a template for building your own reusable Angular2/Ionic2 module using TypeScript. Supports Angular's ngc and Ahead-of-Time compiling out of the box.
@@ -9,7 +8,7 @@ Develop your module like any other Angular 2 module. Then, run `npm run build` t
 
 When you're ready to publish to npm, run `npm publishPackage`.
 
-If you'd like to test this package, run `npm install ionic-module-template`
+If you'd like to test this package, run `npm install cb_ionic_input`
 
 ## npm link
 
@@ -24,7 +23,7 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 
 // Import your module
-import { MyModule } from 'ionic-module-template';
+import { cbInputBox } from 'cb_ionic_input';
 
 @NgModule({
   declarations: [
@@ -33,8 +32,7 @@ import { MyModule } from 'ionic-module-template';
   ],
   imports: [
     IonicModule.forRoot(MyApp),
-
-    MyModule // Put your module here
+    cbInputBox // Put your module here
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -44,7 +42,4 @@ import { MyModule } from 'ionic-module-template';
   providers: []
 })
 export class AppModule {}
-```
-=======
-# cb_inputbox
->>>>>>> a88e29f575a9f63cef9c7d248eafc1d1bdaec111
+
