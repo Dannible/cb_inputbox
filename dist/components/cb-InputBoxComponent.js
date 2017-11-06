@@ -5,7 +5,7 @@ var cbInputBoxComponent = /** @class */ (function () {
     cbInputBoxComponent.decorators = [
         { type: Component, args: [{
                     selector: 'cb-InputBoxComponent',
-                    template: "<div>\n              <ion-label color=\"dark\" stacked>{{labelText}}</ion-label>\n              <ion-input type=\"text\" placeholder=\"{{placeholderText}}\"></ion-input>\n            </div>"
+                    template: "<div>\n              <span class=\"label label-md label-md-dark stacked\">{{labelText}}</span>\n              <input type=\"text\" class=\"input input-md\" placeholder=\"{{placeholderText}}\" />\n            </div>"
                 },] },
     ];
     /** @nocollapse */
