@@ -12,9 +12,21 @@ const styles_cbInputBoxComponent:any[] = ([] as any[]);
 export const RenderType_cbInputBoxComponent:i0.RendererType2 = i0.ɵcrt({encapsulation:2,
     styles:styles_cbInputBoxComponent,data:{}});
 export function View_cbInputBoxComponent_0(_l:any):i0.ɵViewDefinition {
-  return i0.ɵvid(0,[(_l()(),i0.ɵeld(0,0,(null as any),(null as any),1,'div',([] as any[]),
+  return i0.ɵvid(0,[(_l()(),i0.ɵeld(0,0,(null as any),(null as any),6,'div',([] as any[]),
       (null as any),(null as any),(null as any),(null as any),(null as any))),(_l()(),
-      i0.ɵted(-1,(null as any),['I\'m a special snowflake']))],(null as any),(null as any));
+      i0.ɵted(-1,(null as any),['\n              '])),(_l()(),i0.ɵeld(2,0,(null as any),
+      (null as any),1,'ion-label',[['color','dark'],['stacked','']],(null as any),
+      (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted(3,
+      (null as any),['',''])),(_l()(),i0.ɵted(-1,(null as any),['\n              '])),
+      (_l()(),i0.ɵeld(5,0,(null as any),(null as any),0,'ion-input',[['type','text']],
+          [[8,'placeholder',0]],(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i0.ɵted(-1,(null as any),['\n            ']))],(null as any),(_ck,_v) => {
+    var _co:i1.cbInputBoxComponent = _v.component;
+    const currVal_0:any = _co.labelText;
+    _ck(_v,3,0,currVal_0);
+    const currVal_1:any = i0.ɵinlineInterpolate(1,'',_co.placeholderText,'');
+    _ck(_v,5,0,currVal_1);
+  });
 }
 export function View_cbInputBoxComponent_Host_0(_l:any):i0.ɵViewDefinition {
   return i0.ɵvid(0,[(_l()(),i0.ɵeld(0,0,(null as any),(null as any),1,'cb-InputBoxComponent',
@@ -23,5 +35,6 @@ export function View_cbInputBoxComponent_Host_0(_l:any):i0.ɵViewDefinition {
       ([] as any[]),(null as any),(null as any))],(null as any),(null as any));
 }
 export const cbInputBoxComponentNgFactory:i0.ComponentFactory<i1.cbInputBoxComponent> = i0.ɵccf('cb-InputBoxComponent',
-    i1.cbInputBoxComponent,View_cbInputBoxComponent_Host_0,{},{},([] as any[]));
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiQzovd29ya3NwYWNlL0hvdXNpbmcvVG9vbHMvY2JfaW9uaWNfaW5wdXQvc3JjL2NvbXBvbmVudHMvY2ItSW5wdXRCb3hDb21wb25lbnQubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vQzovd29ya3NwYWNlL0hvdXNpbmcvVG9vbHMvY2JfaW9uaWNfaW5wdXQvc3JjL2NvbXBvbmVudHMvY2ItSW5wdXRCb3hDb21wb25lbnQudHMiLCJuZzovLy9DOi93b3Jrc3BhY2UvSG91c2luZy9Ub29scy9jYl9pb25pY19pbnB1dC9zcmMvY29tcG9uZW50cy9jYi1JbnB1dEJveENvbXBvbmVudC50cy5jYklucHV0Qm94Q29tcG9uZW50Lmh0bWwiLCJuZzovLy9DOi93b3Jrc3BhY2UvSG91c2luZy9Ub29scy9jYl9pb25pY19pbnB1dC9zcmMvY29tcG9uZW50cy9jYi1JbnB1dEJveENvbXBvbmVudC50cy5jYklucHV0Qm94Q29tcG9uZW50X0hvc3QuaHRtbCJdLCJzb3VyY2VzQ29udGVudCI6WyIgIiwiPGRpdj5JJ20gYSBzcGVjaWFsIHNub3dmbGFrZTwvZGl2PiIsIjxjYi1JbnB1dEJveENvbXBvbmVudD48L2NiLUlucHV0Qm94Q29tcG9uZW50PiJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7Ozs7O29CQ0FBO01BQUEsd0VBQUs7YUFBQTs7O29CQ0FMO01BQUE7b0NBQUEsVUFBQTtNQUFBOzs7In0=
+    i1.cbInputBoxComponent,View_cbInputBoxComponent_Host_0,{labelText:'labelText',
+        placeholderText:'placeholderText'},{},([] as any[]));
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiQzovd29ya3NwYWNlL0hvdXNpbmcvVG9vbHMvY2JfaW9uaWNfaW5wdXQvc3JjL2NvbXBvbmVudHMvY2ItSW5wdXRCb3hDb21wb25lbnQubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vQzovd29ya3NwYWNlL0hvdXNpbmcvVG9vbHMvY2JfaW9uaWNfaW5wdXQvc3JjL2NvbXBvbmVudHMvY2ItSW5wdXRCb3hDb21wb25lbnQudHMiLCJuZzovLy9DOi93b3Jrc3BhY2UvSG91c2luZy9Ub29scy9jYl9pb25pY19pbnB1dC9zcmMvY29tcG9uZW50cy9jYi1JbnB1dEJveENvbXBvbmVudC50cy5jYklucHV0Qm94Q29tcG9uZW50Lmh0bWwiLCJuZzovLy9DOi93b3Jrc3BhY2UvSG91c2luZy9Ub29scy9jYl9pb25pY19pbnB1dC9zcmMvY29tcG9uZW50cy9jYi1JbnB1dEJveENvbXBvbmVudC50cy5jYklucHV0Qm94Q29tcG9uZW50X0hvc3QuaHRtbCJdLCJzb3VyY2VzQ29udGVudCI6WyIgIiwiPGRpdj5cbiAgICAgICAgICAgICAgPGlvbi1sYWJlbCBjb2xvcj1cImRhcmtcIiBzdGFja2VkPnt7bGFiZWxUZXh0fX08L2lvbi1sYWJlbD5cbiAgICAgICAgICAgICAgPGlvbi1pbnB1dCB0eXBlPVwidGV4dFwiIHBsYWNlaG9sZGVyPVwie3twbGFjZWhvbGRlclRleHR9fVwiPjwvaW9uLWlucHV0PlxuICAgICAgICAgICAgPC9kaXY+IiwiPGNiLUlucHV0Qm94Q29tcG9uZW50PjwvY2ItSW5wdXRCb3hDb21wb25lbnQ+Il0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7b0JDQUE7TUFBQSx3RUFBSzthQUFBLHlDQUNTO01BQUE7TUFBQSwwREFBZ0M7TUFBQSx3QkFBeUI7TUFDekQ7VUFBQTtNQUFxRTs7SUFEckM7SUFBQTtJQUNUO0lBQXZCLFdBQXVCLFNBQXZCOzs7O29CQ0ZkO01BQUE7b0NBQUEsVUFBQTtNQUFBOzs7OyJ9

@@ -1,20 +1,15 @@
 import { Component, Input } from '@angular/core';
-import { NavParams} from 'ionic-angular';
 
 @Component({
   selector: 'cb-InputBoxComponent',
-  template: 'cb-InputBoxComponent.html'
+  template: `<div>
+              <ion-label color="dark" stacked>{{labelText}}</ion-label>
+              <ion-input type="text" placeholder="{{placeholderText}}"></ion-input>
+            </div>`
 })
 export class cbInputBoxComponent {
   @Input() labelText:string;
-  constructor(public params: NavParams) {
-    this.setTitle();
-  }
-
-  setTitle(){
-    if(this.labelText ==  undefined)
-        this.labelText = "";
-    else
-        this.labelText = this.params.get("labelText");
+  @Input() placeholderText:string;
+  constructor() {
   }
 }

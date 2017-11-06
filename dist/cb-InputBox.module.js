@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { cbInputBoxComponent } from './components/cb-InputBoxComponent';
 import { cbInputBoxProvider } from './providers/cb-InputBoxProvider';
 var cbInputBox = /** @class */ (function () {
@@ -19,7 +19,8 @@ var cbInputBox = /** @class */ (function () {
                     exports: [
                         // export the component(s) that you want others to be able to use
                         cbInputBoxComponent
-                    ]
+                    ],
+                    schemas: [CUSTOM_ELEMENTS_SCHEMA]
                 },] },
     ];
     /** @nocollapse */
