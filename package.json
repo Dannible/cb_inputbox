@@ -1,10 +1,12 @@
 {
   "name": "cb_ionic_input",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
-  "files": ["./dist"],
+  "files": [
+    "./dist"
+  ],
   "scripts": {
     "ngc": "ngc",
     "build": "rm -rf aot dist && npm run ngc",
